@@ -1,0 +1,678 @@
+{
+ "freq_categoria": [
+  {
+   "categoria": "Notebook",
+   "registros": 12156,
+   "%": 53.9
+  },
+  {
+   "categoria": "Celular",
+   "registros": 5188,
+   "%": 23.0
+  },
+  {
+   "categoria": "Tablet",
+   "registros": 2818,
+   "%": 12.5
+  },
+  {
+   "categoria": "Desktop",
+   "registros": 2371,
+   "%": 10.5
+  }
+ ],
+ "status_categoria": [
+  {
+   "categoria": "Notebook",
+   "Consertado": 54.8,
+   "Reparável (não concluído)": 26.5,
+   "Fim de vida": 15.4,
+   "Desconhecido": 3.3,
+   "Taxa de conserto*": 56.7
+  },
+  {
+   "categoria": "Celular",
+   "Consertado": 55.0,
+   "Reparável (não concluído)": 26.4,
+   "Fim de vida": 15.5,
+   "Desconhecido": 3.0,
+   "Taxa de conserto*": 56.7
+  },
+  {
+   "categoria": "Tablet",
+   "Consertado": 43.5,
+   "Reparável (não concluído)": 30.3,
+   "Fim de vida": 22.0,
+   "Desconhecido": 4.2,
+   "Taxa de conserto*": 45.4
+  },
+  {
+   "categoria": "Desktop",
+   "Consertado": 54.2,
+   "Reparável (não concluído)": 20.6,
+   "Fim de vida": 18.2,
+   "Desconhecido": 7.0,
+   "Taxa de conserto*": 58.3
+  }
+ ],
+ "taxa_conserto_geral": 55.4,
+ "idade_desc": [
+  {
+   "categoria": "Notebook",
+   "count": 3936.0,
+   "mean": 7.15,
+   "std": 4.09,
+   "min": 0.0,
+   "25%": 4.0,
+   "50%": 6.0,
+   "75%": 10.0,
+   "max": 35.0,
+   "IQR": 6.0,
+   "assimetria": 1.05,
+   "moda": 5.0
+  },
+  {
+   "categoria": "Celular",
+   "count": 1494.0,
+   "mean": 4.8,
+   "std": 4.16,
+   "min": 0.0,
+   "25%": 2.0,
+   "50%": 4.0,
+   "75%": 6.0,
+   "max": 30.0,
+   "IQR": 4.0,
+   "assimetria": 2.52,
+   "moda": 2.0
+  },
+  {
+   "categoria": "Tablet",
+   "count": 837.0,
+   "mean": 5.58,
+   "std": 3.59,
+   "min": 0.0,
+   "25%": 3.0,
+   "50%": 5.0,
+   "75%": 7.0,
+   "max": 23.0,
+   "IQR": 4.0,
+   "assimetria": 1.36,
+   "moda": 5.0
+  },
+  {
+   "categoria": "Desktop",
+   "count": 600.0,
+   "mean": 9.47,
+   "std": 6.4,
+   "min": 0.0,
+   "25%": 5.0,
+   "50%": 8.0,
+   "75%": 12.0,
+   "max": 41.0,
+   "IQR": 7.0,
+   "assimetria": 1.74,
+   "moda": 10.0
+  }
+ ],
+ "idade_geral": {
+  "count": 6867.0,
+  "mean": 6.65,
+  "std": 4.49,
+  "min": 0.0,
+  "25%": 4.0,
+  "50%": 5.0,
+  "75%": 9.0,
+  "max": 41.0
+ },
+ "palavras_desc": {
+  "count": 16982.0,
+  "mean": 9.56,
+  "std": 13.59,
+  "min": 1.0,
+  "25%": 3.0,
+  "50%": 6.0,
+  "75%": 11.0,
+  "max": 960.0
+ },
+ "pct_ate_5_palavras": 45.3,
+ "idiomas": {
+  "en": 39.0,
+  "sem texto": 24.6,
+  "de": 11.1,
+  "fr": 9.5,
+  "nl": 9.1,
+  "indefinido": 4.3,
+  "no": 1.3,
+  "it": 0.6,
+  "es": 0.4,
+  "da": 0.0
+ },
+ "anual": [
+  {
+   "ano_evento": 2013,
+   "Notebook": 85,
+   "Celular": 29,
+   "Tablet": 6,
+   "Desktop": 6
+  },
+  {
+   "ano_evento": 2014,
+   "Notebook": 178,
+   "Celular": 85,
+   "Tablet": 26,
+   "Desktop": 11
+  },
+  {
+   "ano_evento": 2015,
+   "Notebook": 161,
+   "Celular": 100,
+   "Tablet": 42,
+   "Desktop": 15
+  },
+  {
+   "ano_evento": 2016,
+   "Notebook": 405,
+   "Celular": 222,
+   "Tablet": 62,
+   "Desktop": 46
+  },
+  {
+   "ano_evento": 2017,
+   "Notebook": 744,
+   "Celular": 375,
+   "Tablet": 174,
+   "Desktop": 157
+  },
+  {
+   "ano_evento": 2018,
+   "Notebook": 771,
+   "Celular": 546,
+   "Tablet": 250,
+   "Desktop": 199
+  },
+  {
+   "ano_evento": 2019,
+   "Notebook": 1236,
+   "Celular": 667,
+   "Tablet": 427,
+   "Desktop": 233
+  },
+  {
+   "ano_evento": 2020,
+   "Notebook": 395,
+   "Celular": 205,
+   "Tablet": 111,
+   "Desktop": 145
+  },
+  {
+   "ano_evento": 2021,
+   "Notebook": 412,
+   "Celular": 174,
+   "Tablet": 82,
+   "Desktop": 92
+  },
+  {
+   "ano_evento": 2022,
+   "Notebook": 1881,
+   "Celular": 466,
+   "Tablet": 292,
+   "Desktop": 259
+  },
+  {
+   "ano_evento": 2023,
+   "Notebook": 1961,
+   "Celular": 906,
+   "Tablet": 428,
+   "Desktop": 404
+  },
+  {
+   "ano_evento": 2024,
+   "Notebook": 2497,
+   "Celular": 931,
+   "Tablet": 575,
+   "Desktop": 472
+  },
+  {
+   "ano_evento": 2025,
+   "Notebook": 1429,
+   "Celular": 481,
+   "Tablet": 343,
+   "Desktop": 332
+  }
+ ],
+ "taxa_ano": {
+  "2013": 34.1,
+  "2014": 51.0,
+  "2015": 54.7,
+  "2016": 58.5,
+  "2017": 54.8,
+  "2018": 49.5,
+  "2019": 45.9,
+  "2020": 55.1,
+  "2021": 58.6,
+  "2022": 61.2,
+  "2023": 59.4,
+  "2024": 56.1,
+  "2025": 55.4
+ },
+ "taxa_faixa": [
+  {
+   "faixa_idade": "0–2 anos",
+   "Notebook": 55.1,
+   "Celular": 48.0,
+   "Tablet": 45.1,
+   "Desktop": 49.1
+  },
+  {
+   "faixa_idade": "3–5 anos",
+   "Notebook": 48.6,
+   "Celular": 51.0,
+   "Tablet": 42.5,
+   "Desktop": 55.7
+  },
+  {
+   "faixa_idade": "6–8 anos",
+   "Notebook": 54.6,
+   "Celular": 54.2,
+   "Tablet": 44.3,
+   "Desktop": 56.3
+  },
+  {
+   "faixa_idade": "9–12 anos",
+   "Notebook": 51.3,
+   "Celular": 51.3,
+   "Tablet": 35.8,
+   "Desktop": 59.1
+  },
+  {
+   "faixa_idade": "13+ anos",
+   "Notebook": 57.6,
+   "Celular": 57.7,
+   "Tablet": 43.2,
+   "Desktop": 47.2
+  }
+ ],
+ "taxa_faixa_geral": {
+  "0–2 anos": 50.2,
+  "3–5 anos": 48.7,
+  "6–8 anos": 53.4,
+  "9–12 anos": 51.0,
+  "13+ anos": 54.8
+ },
+ "spearman_idade_conserto": {
+  "rho": 0.026,
+  "p": 0.0329,
+  "n": 6823
+ },
+ "chi2_faixa_conserto": {
+  "chi2": 12.6,
+  "gl": 4,
+  "p": 0.0133
+ },
+ "marcas": [
+  {
+   "marca": "Apple",
+   "n": 2946,
+   "taxa": 56.3
+  },
+  {
+   "marca": "HP",
+   "n": 2386,
+   "taxa": 64.2
+  },
+  {
+   "marca": "Samsung",
+   "n": 1608,
+   "taxa": 45.9
+  },
+  {
+   "marca": "Lenovo",
+   "n": 1411,
+   "taxa": 59.5
+  },
+  {
+   "marca": "Acer",
+   "n": 1255,
+   "taxa": 54.5
+  },
+  {
+   "marca": "Asus",
+   "n": 947,
+   "taxa": 53.7
+  },
+  {
+   "marca": "Dell",
+   "n": 889,
+   "taxa": 54.8
+  },
+  {
+   "marca": "Toshiba",
+   "n": 518,
+   "taxa": 53.0
+  },
+  {
+   "marca": "Sony",
+   "n": 321,
+   "taxa": 50.8
+  },
+  {
+   "marca": "Huawei",
+   "n": 216,
+   "taxa": 50.5
+  },
+  {
+   "marca": "Medion",
+   "n": 188,
+   "taxa": 50.0
+  },
+  {
+   "marca": "Nokia",
+   "n": 164,
+   "taxa": 51.2
+  }
+ ],
+ "pct_marca_desconhecida": 34.1,
+ "barreiras": {
+  "Não informada": 2643,
+  "Peças caras demais": 278,
+  "Falta de informação de reparo": 215,
+  "Peças indisponíveis": 173,
+  "Falta de equipamento": 162,
+  "Produto não pode ser aberto": 138,
+  "Item muito desgastado": 125
+ },
+ "n_fim_vida": 3734,
+ "pct_indeterminado": 26.1,
+ "pct_indeterminado_cat": {
+  "Celular": 19.6,
+  "Desktop": 42.5,
+  "Notebook": 27.9,
+  "Tablet": 20.2
+ },
+ "falha_por_cat": {
+  "Notebook": {
+   "Tela": 10.2,
+   "Software / sistema": 20.9,
+   "Energia / bateria": 12.5,
+   "Desempenho / superaquecimento": 19.9,
+   "Conectores e portas": 5.0,
+   "Inicialização (boot)": 6.8,
+   "Armazenamento": 7.3,
+   "Placa / dano interno": 5.2,
+   "Botões / teclado / touchpad": 5.2,
+   "Outros": 2.2,
+   "Áudio / câmera / mídia": 2.0,
+   "Carcaça / dano externo": 3.0,
+   "Dano por líquido": 0.0
+  },
+  "Celular": {
+   "Tela": 40.9,
+   "Software / sistema": 9.2,
+   "Energia / bateria": 15.8,
+   "Desempenho / superaquecimento": 0.3,
+   "Conectores e portas": 8.8,
+   "Inicialização (boot)": 1.9,
+   "Armazenamento": 2.5,
+   "Placa / dano interno": 1.4,
+   "Botões / teclado / touchpad": 4.8,
+   "Outros": 7.4,
+   "Áudio / câmera / mídia": 5.6,
+   "Carcaça / dano externo": 0.3,
+   "Dano por líquido": 1.1
+  },
+  "Tablet": {
+   "Tela": 21.3,
+   "Software / sistema": 21.9,
+   "Energia / bateria": 23.3,
+   "Desempenho / superaquecimento": 7.0,
+   "Conectores e portas": 11.6,
+   "Inicialização (boot)": 4.7,
+   "Armazenamento": 1.6,
+   "Placa / dano interno": 1.9,
+   "Botões / teclado / touchpad": 3.7,
+   "Outros": 1.4,
+   "Áudio / câmera / mídia": 1.0,
+   "Carcaça / dano externo": 0.2,
+   "Dano por líquido": 0.6
+  },
+  "Desktop": {
+   "Tela": 6.0,
+   "Software / sistema": 23.0,
+   "Energia / bateria": 21.8,
+   "Desempenho / superaquecimento": 12.8,
+   "Conectores e portas": 3.3,
+   "Inicialização (boot)": 9.0,
+   "Armazenamento": 7.8,
+   "Placa / dano interno": 9.3,
+   "Botões / teclado / touchpad": 1.8,
+   "Outros": 2.4,
+   "Áudio / câmera / mídia": 1.5,
+   "Carcaça / dano externo": 1.5,
+   "Dano por líquido": 0.0
+  }
+ },
+ "n_falhas_cat": {
+  "Notebook": 2530,
+  "Celular": 1540,
+  "Tablet": 516,
+  "Desktop": 335
+ },
+ "taxa_por_falha": [
+  {
+   "categoria_falha": "Placa / dano interno",
+   "n": 193,
+   "taxa": 32.6
+  },
+  {
+   "categoria_falha": "Energia / bateria",
+   "n": 752,
+   "taxa": 38.1
+  },
+  {
+   "categoria_falha": "Inicialização (boot)",
+   "n": 254,
+   "taxa": 38.7
+  },
+  {
+   "categoria_falha": "Tela",
+   "n": 1017,
+   "taxa": 45.7
+  },
+  {
+   "categoria_falha": "Botões / teclado / touchpad",
+   "n": 230,
+   "taxa": 46.3
+  },
+  {
+   "categoria_falha": "Áudio / câmera / mídia",
+   "n": 146,
+   "taxa": 48.2
+  },
+  {
+   "categoria_falha": "Conectores e portas",
+   "n": 333,
+   "taxa": 48.8
+  },
+  {
+   "categoria_falha": "Outros",
+   "n": 184,
+   "taxa": 51.4
+  },
+  {
+   "categoria_falha": "Carcaça / dano externo",
+   "n": 86,
+   "taxa": 55.0
+  },
+  {
+   "categoria_falha": "Software / sistema",
+   "n": 861,
+   "taxa": 64.7
+  },
+  {
+   "categoria_falha": "Armazenamento",
+   "n": 257,
+   "taxa": 66.1
+  },
+  {
+   "categoria_falha": "Desempenho / superaquecimento",
+   "n": 589,
+   "taxa": 68.4
+  }
+ ],
+ "taxa_media_b": 51.1,
+ "nao_liga": {
+  "n": 490,
+  "distribuicao": {
+   "Energia / bateria": 45.7,
+   "Inicialização (boot)": 33.7,
+   "Placa / dano interno": 5.7,
+   "Tela": 3.5,
+   "Armazenamento": 3.5,
+   "Software / sistema": 2.9,
+   "Outros": 1.8,
+   "Botões / teclado / touchpad": 1.2,
+   "Conectores e portas": 1.0,
+   "Desempenho / superaquecimento": 0.8,
+   "Áudio / câmera / mídia": 0.2
+  },
+  "n_categorias": 11
+ },
+ "termos": [
+  {
+   "categoria_falha": "Tela",
+   "n_textos": 495,
+   "termos": "touchscreen, digitiser, cracked, lcd, smashed, inverter"
+  },
+  {
+   "categoria_falha": "Software / sistema",
+   "n_textos": 461,
+   "termos": "firmware, printer, office, calendar, virus, app"
+  },
+  {
+   "categoria_falha": "Energia / bateria",
+   "n_textos": 452,
+   "termos": "quickly, supply, battery, circuit, charge, turn"
+  },
+  {
+   "categoria_falha": "Desempenho / superaquecimento",
+   "n_textos": 312,
+   "termos": "optimised, overheats, noisy, overheating, hot, running"
+  },
+  {
+   "categoria_falha": "Conectores e portas",
+   "n_textos": 233,
+   "termos": "micro, ports, sim, port, socket, jack"
+  },
+  {
+   "categoria_falha": "Botões / teclado / touchpad",
+   "n_textos": 154,
+   "termos": "keys, keyboard, button, key, home, trackpad"
+  },
+  {
+   "categoria_falha": "Inicialização (boot)",
+   "n_textos": 130,
+   "termos": "booting, bios, boot, starting, start, won"
+  },
+  {
+   "categoria_falha": "Outros",
+   "n_textos": 116,
+   "termos": "iphone, water, damage, board, phone, user"
+  },
+  {
+   "categoria_falha": "Armazenamento",
+   "n_textos": 115,
+   "termos": "storage, hdd, hard, drive, memory, disk"
+  },
+  {
+   "categoria_falha": "Placa / dano interno",
+   "n_textos": 103,
+   "termos": "motherboard, dropped, board, water, damage, card"
+  },
+  {
+   "categoria_falha": "Áudio / câmera / mídia",
+   "n_textos": 91,
+   "termos": "speaker, speakers, camera, lens, microphone, dvd"
+  },
+  {
+   "categoria_falha": "Carcaça / dano externo",
+   "n_textos": 43,
+   "termos": "hinge, casing, screws, loose, broken, laptop"
+  }
+ ],
+ "cramer": {
+  "aparelho": {
+   "aparelho": 1.0,
+   "tipo de falha": 0.28,
+   "desfecho": 0.07,
+   "idioma": 0.2,
+   "faixa de idade": 0.27,
+   "organização": 0.25
+  },
+  "tipo de falha": {
+   "aparelho": 0.28,
+   "tipo de falha": 1.0,
+   "desfecho": 0.16,
+   "idioma": 0.28,
+   "faixa de idade": 0.14,
+   "organização": 0.13
+  },
+  "desfecho": {
+   "aparelho": 0.07,
+   "tipo de falha": 0.16,
+   "desfecho": 1.0,
+   "idioma": 0.19,
+   "faixa de idade": 0.09,
+   "organização": 0.25
+  },
+  "idioma": {
+   "aparelho": 0.2,
+   "tipo de falha": 0.28,
+   "desfecho": 0.19,
+   "idioma": 1.0,
+   "faixa de idade": 0.14,
+   "organização": 0.56
+  },
+  "faixa de idade": {
+   "aparelho": 0.27,
+   "tipo de falha": 0.14,
+   "desfecho": 0.09,
+   "idioma": 0.14,
+   "faixa de idade": 1.0,
+   "organização": 0.17
+  },
+  "organização": {
+   "aparelho": 0.25,
+   "tipo de falha": 0.13,
+   "desfecho": 0.25,
+   "idioma": 0.56,
+   "faixa de idade": 0.17,
+   "organização": 1.0
+  }
+ },
+ "n_reparos": 22533,
+ "n_falhas": 6657,
+ "n_modelagem": 4019,
+ "periodo": [
+  "2012-06-20",
+  "2025-07-31"
+ ],
+ "n_paises": 28,
+ "n_marcas": 685,
+ "pct_com_idade": 30.5,
+ "pct_com_texto": 75.4,
+ "modelagem_por_falha": {
+  "Software / sistema": 804,
+  "Tela": 666,
+  "Energia / bateria": 622,
+  "Desempenho / superaquecimento": 424,
+  "Conectores e portas": 320,
+  "Botões / teclado / touchpad": 216,
+  "Placa / dano interno": 188,
+  "Inicialização (boot)": 183,
+  "Armazenamento": 181,
+  "Outros": 171,
+  "Áudio / câmera / mídia": 140,
+  "Carcaça / dano externo": 86,
+  "Dano por líquido": 18
+ }
+}

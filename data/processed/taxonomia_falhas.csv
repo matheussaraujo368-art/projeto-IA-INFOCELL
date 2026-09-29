@@ -1,0 +1,42 @@
+categoria_falha,tipo_falha_original,registros
+Armazenamento,Internal storage,210
+Armazenamento,Storage problem,47
+Botões / teclado / touchpad,Integrated keyboard,112
+Botões / teclado / touchpad,On/Off button,44
+Botões / teclado / touchpad,Other buttons,41
+Botões / teclado / touchpad,Integrated pointing device,25
+Botões / teclado / touchpad,Volume buttons,8
+Carcaça / dano externo,Case/chassis,80
+Carcaça / dano externo,External damage,6
+Conectores e portas,USB/charging port,142
+Conectores e portas,Ports/slots/connectors,138
+Conectores e portas,Headphone jack,29
+Conectores e portas,Sim card slot,20
+Conectores e portas,Memory card slot,4
+Dano por líquido,Liquid damage,20
+Desempenho / superaquecimento,Performance,474
+Desempenho / superaquecimento,Overheating,115
+Energia / bateria,Power/battery,730
+Energia / bateria,Charger,22
+Indeterminado,Unknown,1604
+Indeterminado,Poor data,131
+Inicialização (boot),Boot,201
+Inicialização (boot),Stuck booting,53
+Outros,Other,158
+Outros,Multiple,26
+Placa / dano interno,Internal damage,98
+Placa / dano interno,System board,95
+Software / sistema,Configuration,337
+Software / sistema,Operating system,209
+Software / sistema,Help/configuration,109
+Software / sistema,Software update,67
+Software / sistema,Virus/malware,60
+Software / sistema,Software issue,53
+Software / sistema,Access issue,26
+Tela,Screen,740
+Tela,Integrated screen,277
+Áudio / câmera / mídia,Camera,41
+Áudio / câmera / mídia,Speaker/amplifier,31
+Áudio / câmera / mídia,Integrated media component,29
+Áudio / câmera / mídia,Integrated optical drive,26
+Áudio / câmera / mídia,Microphone,19
