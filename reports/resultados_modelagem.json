@@ -1,0 +1,1038 @@
+{
+ "n_total": 4019,
+ "classes": {
+  "Software / sistema": 804,
+  "Tela": 666,
+  "Energia / bateria": 622,
+  "Desempenho / superaquecimento": 424,
+  "Conectores e portas": 320,
+  "Botões / teclado / touchpad": 216,
+  "Placa / dano interno": 188,
+  "Inicialização (boot)": 183,
+  "Armazenamento": 181,
+  "Outros": 171,
+  "Áudio / câmera / mídia": 140,
+  "Carcaça / dano externo": 86,
+  "Dano por líquido": 18
+ },
+ "textos_repetidos": {
+  "textos": 141,
+  "registros": 345,
+  "conflitantes": 46,
+  "registros_conflitantes": 131
+ },
+ "palavras_mediana": 5.0,
+ "pct_ate_3_palavras": 35.20776312515551,
+ "n_treino": 2224,
+ "n_teste": 1795,
+ "pct_teste": 44.662851455585965,
+ "ano_corte": 2018,
+ "dist_treino": {
+  "Tela": 405,
+  "Software / sistema": 396,
+  "Energia / bateria": 347,
+  "Desempenho / superaquecimento": 264,
+  "Conectores e portas": 190,
+  "Botões / teclado / touchpad": 121,
+  "Armazenamento": 107,
+  "Placa / dano interno": 99,
+  "Inicialização (boot)": 91,
+  "Outros": 84,
+  "Áudio / câmera / mídia": 74,
+  "Carcaça / dano externo": 39,
+  "Dano por líquido": 7
+ },
+ "dist_teste": {
+  "Software / sistema": 408,
+  "Energia / bateria": 275,
+  "Tela": 261,
+  "Desempenho / superaquecimento": 160,
+  "Conectores e portas": 130,
+  "Botões / teclado / touchpad": 95,
+  "Inicialização (boot)": 92,
+  "Placa / dano interno": 89,
+  "Outros": 87,
+  "Armazenamento": 74,
+  "Áudio / câmera / mídia": 66,
+  "Carcaça / dano externo": 47,
+  "Dano por líquido": 11
+ },
+ "pct_teste_texto_visto": 5.013927576601671,
+ "modelo_final": "LR · palavras+caracteres+aparelho",
+ "melhor_cv": "SVM linear · palavras+caracteres",
+ "criterio_empate_dp": 0.027938666439514603,
+ "grade": {
+  "LR · palavras": {
+   "clf__C": [
+    1,
+    3,
+    10,
+    30
+   ]
+  },
+  "LR · caracteres": {
+   "clf__C": [
+    1,
+    3,
+    10,
+    30
+   ]
+  },
+  "LR · palavras+caracteres": {
+   "clf__C": [
+    1,
+    3,
+    10,
+    30
+   ]
+  },
+  "LR · palavras+caracteres+aparelho": {
+   "clf__C": [
+    1,
+    3,
+    10,
+    30
+   ]
+  },
+  "SVM linear · palavras+caracteres": {
+   "clf__C": [
+    0.03,
+    0.1,
+    0.3,
+    1
+   ]
+  },
+  "Naive Bayes (Complement) · palavras+caracteres": {
+   "clf__alpha": [
+    0.03,
+    0.1,
+    0.3,
+    1
+   ]
+  }
+ },
+ "tabela_modelos": [
+  {
+   "modelo": "Base · classe majoritária",
+   "cv_f1_macro": null,
+   "cv_dp": null,
+   "hiperparametros": "—",
+   "acuracia": 0.14540389972144846,
+   "acuracia_balanceada": 0.07692307692307693,
+   "precisao_macro": 0.011184915363188342,
+   "revocacao_macro": 0.07692307692307693,
+   "f1_macro": 0.019530080814127507,
+   "f1_ponderado": 0.036916748859239346,
+   "top2": 0.37270194986072425,
+   "top3": 0.5259052924791087,
+   "top5": 0.6874651810584959
+  },
+  {
+   "modelo": "Base · prior por aparelho",
+   "cv_f1_macro": null,
+   "cv_dp": null,
+   "hiperparametros": "—",
+   "acuracia": 0.17548746518105848,
+   "acuracia_balanceada": 0.11057031344810249,
+   "precisao_macro": 0.043889363177537694,
+   "revocacao_macro": 0.11057031344810249,
+   "f1_macro": 0.05260066579236434,
+   "f1_ponderado": 0.09798610701387006,
+   "top2": 0.41225626740947074,
+   "top3": 0.5337047353760446,
+   "top5": 0.7108635097493036
+  },
+  {
+   "modelo": "LR · palavras",
+   "cv_f1_macro": 0.5396839562452481,
+   "cv_dp": 0.0281509187099051,
+   "hiperparametros": "{\"clf__C\": 10}",
+   "acuracia": 0.6562674094707521,
+   "acuracia_balanceada": 0.5732730430437141,
+   "precisao_macro": 0.5610378434094183,
+   "revocacao_macro": 0.5732730430437141,
+   "f1_macro": 0.5659493595079732,
+   "f1_ponderado": 0.6592499372804013,
+   "top2": 0.7938718662952646,
+   "top3": 0.8562674094707521,
+   "top5": 0.9086350974930362
+  },
+  {
+   "modelo": "LR · caracteres",
+   "cv_f1_macro": 0.5973301238065799,
+   "cv_dp": 0.014199281697062516,
+   "hiperparametros": "{\"clf__C\": 3}",
+   "acuracia": 0.7075208913649025,
+   "acuracia_balanceada": 0.6422803160670052,
+   "precisao_macro": 0.6362332481097598,
+   "revocacao_macro": 0.6422803160670052,
+   "f1_macro": 0.6356814134338478,
+   "f1_ponderado": 0.7115901124712863,
+   "top2": 0.8395543175487465,
+   "top3": 0.8997214484679665,
+   "top5": 0.9504178272980501
+  },
+  {
+   "modelo": "LR · palavras+caracteres",
+   "cv_f1_macro": 0.5830315542359779,
+   "cv_dp": 0.024468791309279075,
+   "hiperparametros": "{\"clf__C\": 1}",
+   "acuracia": 0.6958217270194986,
+   "acuracia_balanceada": 0.6276759875235893,
+   "precisao_macro": 0.6049297000479268,
+   "revocacao_macro": 0.6276759875235893,
+   "f1_macro": 0.6134683593332866,
+   "f1_ponderado": 0.7012561399042967,
+   "top2": 0.8317548746518106,
+   "top3": 0.8947075208913648,
+   "top5": 0.9481894150417828
+  },
+  {
+   "modelo": "LR · palavras+caracteres+aparelho",
+   "cv_f1_macro": 0.5951396536890246,
+   "cv_dp": 0.013037990549335531,
+   "hiperparametros": "{\"clf__C\": 3}",
+   "acuracia": 0.7158774373259053,
+   "acuracia_balanceada": 0.6527323901403957,
+   "precisao_macro": 0.6662225799708495,
+   "revocacao_macro": 0.6527323901403957,
+   "f1_macro": 0.6541012271517557,
+   "f1_ponderado": 0.7157162321123755,
+   "top2": 0.8406685236768803,
+   "top3": 0.8952646239554317,
+   "top5": 0.9493036211699164
+  },
+  {
+   "modelo": "SVM linear · palavras+caracteres",
+   "cv_f1_macro": 0.5997857289934883,
+   "cv_dp": 0.027938666439514603,
+   "hiperparametros": "{\"clf__C\": 0.3}",
+   "acuracia": 0.7103064066852368,
+   "acuracia_balanceada": 0.6333575897626713,
+   "precisao_macro": 0.6028152525378032,
+   "revocacao_macro": 0.6333575897626713,
+   "f1_macro": 0.6155092388070943,
+   "f1_ponderado": 0.7077292976661275,
+   "top2": 0.841225626740947,
+   "top3": 0.8919220055710306,
+   "top5": 0.9259052924791087
+  },
+  {
+   "modelo": "Naive Bayes (Complement) · palavras+caracteres",
+   "cv_f1_macro": 0.5681072446175007,
+   "cv_dp": 0.024578002522479922,
+   "hiperparametros": "{\"clf__alpha\": 0.1}",
+   "acuracia": 0.6991643454038997,
+   "acuracia_balanceada": 0.5767691203727541,
+   "precisao_macro": 0.6197873861014582,
+   "revocacao_macro": 0.5767691203727541,
+   "f1_macro": 0.5835597509510917,
+   "f1_ponderado": 0.6830807053247849,
+   "top2": 0.8272980501392758,
+   "top3": 0.883008356545961,
+   "top5": 0.916991643454039
+  }
+ ],
+ "final": {
+  "metricas": {
+   "acuracia": 0.7158774373259053,
+   "acuracia_balanceada": 0.6527323901403957,
+   "precisao_macro": 0.6662225799708495,
+   "revocacao_macro": 0.6527323901403957,
+   "f1_macro": 0.6541012271517557,
+   "f1_ponderado": 0.7157162321123755,
+   "top2": 0.8406685236768803,
+   "top3": 0.8952646239554317,
+   "top5": 0.9493036211699164,
+   "log_loss": 1.0251831839289098
+  },
+  "ic95": {
+   "acuracia": [
+    0.6952646239554318,
+    0.7370612813370474
+   ],
+   "f1_macro": [
+    0.6190021441774225,
+    0.6830832512748111
+   ],
+   "top3": [
+    0.8807799442896936,
+    0.909192200557103
+   ],
+   "dif_f1_macro_vs_base": [
+    0.5669448127928296,
+    0.6309081678623834
+   ]
+  },
+  "hiperparametros": {
+   "clf__C": 3
+  },
+  "log_loss_base": 2.2357064278355248
+ },
+ "por_classe": {
+  "Armazenamento": {
+   "precisao": 0.6190476190476191,
+   "revocacao": 0.7027027027027027,
+   "f1": 0.6582278481012658,
+   "n": 74,
+   "f1_base": 0.0,
+   "n_treino": 107
+  },
+  "Botões / teclado / touchpad": {
+   "precisao": 0.75,
+   "revocacao": 0.7578947368421053,
+   "f1": 0.7539267015706806,
+   "n": 95,
+   "f1_base": 0.0,
+   "n_treino": 121
+  },
+  "Carcaça / dano externo": {
+   "precisao": 0.5625,
+   "revocacao": 0.574468085106383,
+   "f1": 0.5684210526315789,
+   "n": 47,
+   "f1_base": 0.0,
+   "n_treino": 39
+  },
+  "Conectores e portas": {
+   "precisao": 0.75,
+   "revocacao": 0.7846153846153846,
+   "f1": 0.7669172932330827,
+   "n": 130,
+   "f1_base": 0.0,
+   "n_treino": 190
+  },
+  "Dano por líquido": {
+   "precisao": 0.7142857142857143,
+   "revocacao": 0.45454545454545453,
+   "f1": 0.5555555555555556,
+   "n": 11,
+   "f1_base": 0.0,
+   "n_treino": 7
+  },
+  "Desempenho / superaquecimento": {
+   "precisao": 0.6113744075829384,
+   "revocacao": 0.80625,
+   "f1": 0.6954177897574124,
+   "n": 160,
+   "f1_base": 0.21311475409836064,
+   "n_treino": 264
+  },
+  "Energia / bateria": {
+   "precisao": 0.8185483870967742,
+   "revocacao": 0.7381818181818182,
+   "f1": 0.7762906309751434,
+   "n": 275,
+   "f1_base": 0.0,
+   "n_treino": 347
+  },
+  "Inicialização (boot)": {
+   "precisao": 0.5523809523809524,
+   "revocacao": 0.6304347826086957,
+   "f1": 0.5888324873096447,
+   "n": 92,
+   "f1_base": 0.0,
+   "n_treino": 91
+  },
+  "Outros": {
+   "precisao": 0.30303030303030304,
+   "revocacao": 0.22988505747126436,
+   "f1": 0.26143790849673204,
+   "n": 87,
+   "f1_base": 0.0,
+   "n_treino": 84
+  },
+  "Placa / dano interno": {
+   "precisao": 0.4411764705882353,
+   "revocacao": 0.5056179775280899,
+   "f1": 0.4712041884816754,
+   "n": 89,
+   "f1_base": 0.0,
+   "n_treino": 99
+  },
+  "Software / sistema": {
+   "precisao": 0.7967914438502673,
+   "revocacao": 0.7303921568627451,
+   "f1": 0.7621483375959079,
+   "n": 408,
+   "f1_base": 0.1288135593220339,
+   "n_treino": 396
+  },
+  "Tela": {
+   "precisao": 0.8571428571428571,
+   "revocacao": 0.8735632183908046,
+   "f1": 0.8652751423149905,
+   "n": 261,
+   "f1_base": 0.3418803418803419,
+   "n_treino": 405
+  },
+  "Áudio / câmera / mídia": {
+   "precisao": 0.8846153846153846,
+   "revocacao": 0.696969696969697,
+   "f1": 0.7796610169491526,
+   "n": 66,
+   "f1_base": 0.0,
+   "n_treino": 74
+  }
+ },
+ "confusoes": [
+  {
+   "verdadeiro": "Software / sistema",
+   "previsto": "Desempenho / superaquecimento",
+   "n": 43,
+   "pct_da_classe": 0.1053921568627451
+  },
+  {
+   "verdadeiro": "Energia / bateria",
+   "previsto": "Inicialização (boot)",
+   "n": 22,
+   "pct_da_classe": 0.08
+  },
+  {
+   "verdadeiro": "Software / sistema",
+   "previsto": "Outros",
+   "n": 21,
+   "pct_da_classe": 0.051470588235294115
+  },
+  {
+   "verdadeiro": "Outros",
+   "previsto": "Software / sistema",
+   "n": 18,
+   "pct_da_classe": 0.20689655172413793
+  },
+  {
+   "verdadeiro": "Energia / bateria",
+   "previsto": "Conectores e portas",
+   "n": 14,
+   "pct_da_classe": 0.05090909090909091
+  },
+  {
+   "verdadeiro": "Outros",
+   "previsto": "Desempenho / superaquecimento",
+   "n": 12,
+   "pct_da_classe": 0.13793103448275862
+  },
+  {
+   "verdadeiro": "Placa / dano interno",
+   "previsto": "Energia / bateria",
+   "n": 11,
+   "pct_da_classe": 0.12359550561797752
+  },
+  {
+   "verdadeiro": "Desempenho / superaquecimento",
+   "previsto": "Software / sistema",
+   "n": 10,
+   "pct_da_classe": 0.0625
+  }
+ ],
+ "topk": {
+  "LR · palavras+caracteres+aparelho": {
+   "1": 0.7158774373259053,
+   "2": 0.8406685236768803,
+   "3": 0.8952646239554317,
+   "4": 0.928133704735376,
+   "5": 0.9493036211699164
+  },
+  "Base · prior por aparelho": {
+   "1": 0.17548746518105848,
+   "2": 0.41225626740947074,
+   "3": 0.5337047353760446,
+   "4": 0.6423398328690808,
+   "5": 0.7108635097493036
+  },
+  "Base · classe majoritária": {
+   "1": 0.14540389972144846,
+   "2": 0.37270194986072425,
+   "3": 0.5259052924791087,
+   "4": 0.615041782729805,
+   "5": 0.6874651810584959
+  }
+ },
+ "tamanho_modelo_mb": 2.27,
+ "segmentos": {
+  "idioma": [
+   {
+    "grupo": "de",
+    "n": 261,
+    "acuracia": 0.5708812260536399,
+    "top3": 0.842911877394636,
+    "f1_macro": 0.5260010968815545
+   },
+   {
+    "grupo": "en",
+    "n": 1056,
+    "acuracia": 0.7537878787878788,
+    "top3": 0.9176136363636364,
+    "f1_macro": 0.6856297074852069
+   },
+   {
+    "grupo": "indefinido",
+    "n": 131,
+    "acuracia": 0.7251908396946565,
+    "top3": 0.8931297709923665,
+    "f1_macro": 0.6179384885267237
+   },
+   {
+    "grupo": "nl",
+    "n": 297,
+    "acuracia": 0.7171717171717171,
+    "top3": 0.8686868686868687,
+    "f1_macro": 0.5881430806637491
+   },
+   {
+    "grupo": "outros (fr, it, no, es)",
+    "n": 50,
+    "acuracia": 0.64,
+    "top3": 0.86,
+    "f1_macro": 0.4739951030401958
+   }
+  ],
+  "aparelho": [
+   {
+    "grupo": "Celular",
+    "n": 453,
+    "acuracia": 0.7328918322295805,
+    "top3": 0.9094922737306843,
+    "f1_macro": 0.5794377430567199
+   },
+   {
+    "grupo": "Desktop",
+    "n": 182,
+    "acuracia": 0.6153846153846154,
+    "top3": 0.8351648351648352,
+    "f1_macro": 0.45740526489906985
+   },
+   {
+    "grupo": "Notebook",
+    "n": 938,
+    "acuracia": 0.7068230277185501,
+    "top3": 0.8880597014925373,
+    "f1_macro": 0.6485133191463552
+   },
+   {
+    "grupo": "Tablet",
+    "n": 222,
+    "acuracia": 0.8018018018018018,
+    "top3": 0.9459459459459459,
+    "f1_macro": 0.5867051896208124
+   }
+  ],
+  "tamanho": [
+   {
+    "grupo": "1–3 palavras",
+    "n": 702,
+    "acuracia": 0.7649572649572649,
+    "top3": 0.915954415954416,
+    "f1_macro": 0.6722070302663128
+   },
+   {
+    "grupo": "4–6 palavras",
+    "n": 539,
+    "acuracia": 0.738404452690167,
+    "top3": 0.8979591836734694,
+    "f1_macro": 0.6780604985299473
+   },
+   {
+    "grupo": "7+ palavras",
+    "n": 554,
+    "acuracia": 0.631768953068592,
+    "top3": 0.8664259927797834,
+    "f1_macro": 0.5923310193407345
+   }
+  ]
+ },
+ "exemplos_erros": [
+  {
+   "texto": "Not booting",
+   "verdadeiro": "Energia / bateria",
+   "previsto": "Inicialização (boot)",
+   "confianca": 0.9912075256013442
+  },
+  {
+   "texto": "Periodical screen shutdown",
+   "verdadeiro": "Software / sistema",
+   "previsto": "Tela",
+   "confianca": 0.9873443190755479
+  },
+  {
+   "texto": "New hard drive, additional memory",
+   "verdadeiro": "Desempenho / superaquecimento",
+   "previsto": "Armazenamento",
+   "confianca": 0.9856419789539932
+  },
+  {
+   "texto": "Touchpad and keyboard faulty",
+   "verdadeiro": "Outros",
+   "previsto": "Botões / teclado / touchpad",
+   "confianca": 0.9768081557676889
+  },
+  {
+   "texto": "computer tower needs hard drive wiping",
+   "verdadeiro": "Software / sistema",
+   "previsto": "Armazenamento",
+   "confianca": 0.920017330054191
+  },
+  {
+   "texto": "Charging/power problem",
+   "verdadeiro": "Conectores e portas",
+   "previsto": "Energia / bateria",
+   "confianca": 0.9167486786567974
+  },
+  {
+   "texto": "Swollen/failed battery. Needs new battery and SSD",
+   "verdadeiro": "Outros",
+   "previsto": "Energia / bateria",
+   "confianca": 0.9161309710299703
+  },
+  {
+   "texto": "Touch screen cables and buttons damaged",
+   "verdadeiro": "Placa / dano interno",
+   "previsto": "Tela",
+   "confianca": 0.889311678642869
+  }
+ ],
+ "visto_vs_inedito": {
+  "inedito": {
+   "n": 1705,
+   "acuracia": 0.7090909090909091
+  },
+  "visto": {
+   "n": 90,
+   "acuracia": 0.8444444444444444
+  }
+ },
+ "temporal_vs_aleatorio": {
+  "acuracia": {
+   "temporal": 0.7158774373259053,
+   "aleatorio": 0.7290622098421542,
+   "aleatorio_dp": 0.009277620053330953
+  },
+  "f1_macro": {
+   "temporal": 0.6541012271517557,
+   "aleatorio": 0.6570097973136516,
+   "aleatorio_dp": 0.003321799350081739
+  },
+  "top3": {
+   "temporal": 0.8952646239554317,
+   "aleatorio": 0.9149489322191272,
+   "aleatorio_dp": 0.005055026031129529
+  }
+ },
+ "curva_aprendizagem": [
+  {
+   "fracao": 0.1,
+   "n": 222,
+   "f1": 0.3939162344797207,
+   "f1_dp": 0.012669743400280487,
+   "acc": 0.5262766945218198
+  },
+  {
+   "fracao": 0.2,
+   "n": 445,
+   "f1": 0.4790022895082228,
+   "f1_dp": 0.010181656262117644,
+   "acc": 0.5892293407613742
+  },
+  {
+   "fracao": 0.4,
+   "n": 890,
+   "f1": 0.5487426445113854,
+   "f1_dp": 0.009466356337119897,
+   "acc": 0.6360259981429898
+  },
+  {
+   "fracao": 0.6,
+   "n": 1334,
+   "f1": 0.594111072661042,
+   "f1_dp": 0.007724643203690193,
+   "acc": 0.67669452181987
+  },
+  {
+   "fracao": 0.8,
+   "n": 1779,
+   "f1": 0.6248576783262835,
+   "f1_dp": 0.0044416223878769,
+   "acc": 0.7000928505106777
+  },
+  {
+   "fracao": 1.0,
+   "n": 2224,
+   "f1": 0.6541012271517557,
+   "f1_dp": 0.0,
+   "acc": 0.7158774373259053
+  }
+ ],
+ "calibracao": {
+  "ece": 0.11272237420910472,
+  "bins": [
+   {
+    "conf": 0.22727008438502458,
+    "acc": 0.3511111111111111,
+    "n": 225
+   },
+   {
+    "conf": 0.3277638767375211,
+    "acc": 0.4955357142857143,
+    "n": 224
+   },
+   {
+    "conf": 0.43178545967546356,
+    "acc": 0.6116071428571429,
+    "n": 224
+   },
+   {
+    "conf": 0.5423915668065848,
+    "acc": 0.7333333333333333,
+    "n": 225
+   },
+   {
+    "conf": 0.6578063457717762,
+    "acc": 0.7901785714285714,
+    "n": 224
+   },
+   {
+    "conf": 0.7877372940326568,
+    "acc": 0.8616071428571429,
+    "n": 224
+   },
+   {
+    "conf": 0.8830263328898572,
+    "acc": 0.9151785714285714,
+    "n": 224
+   },
+   {
+    "conf": 0.9677810734956237,
+    "acc": 0.9688888888888889,
+    "n": 225
+   }
+  ]
+ },
+ "selecao_confianca": [
+  {
+   "corte": 0.0,
+   "cobertura": 1.0,
+   "acuracia": 0.7158774373259053,
+   "n": 1795
+  },
+  {
+   "corte": 0.05,
+   "cobertura": 1.0,
+   "acuracia": 0.7158774373259053,
+   "n": 1795
+  },
+  {
+   "corte": 0.1,
+   "cobertura": 1.0,
+   "acuracia": 0.7158774373259053,
+   "n": 1795
+  },
+  {
+   "corte": 0.15000000000000002,
+   "cobertura": 0.9988857938718663,
+   "acuracia": 0.716675962074735,
+   "n": 1793
+  },
+  {
+   "corte": 0.2,
+   "cobertura": 0.9721448467966574,
+   "acuracia": 0.729512893982808,
+   "n": 1745
+  },
+  {
+   "corte": 0.25,
+   "cobertura": 0.9125348189415042,
+   "acuracia": 0.7527472527472527,
+   "n": 1638
+  },
+  {
+   "corte": 0.30000000000000004,
+   "cobertura": 0.8484679665738162,
+   "acuracia": 0.783322390019698,
+   "n": 1523
+  },
+  {
+   "corte": 0.35000000000000003,
+   "cobertura": 0.781058495821727,
+   "acuracia": 0.8038516405135521,
+   "n": 1402
+  },
+  {
+   "corte": 0.4,
+   "cobertura": 0.7259052924791086,
+   "acuracia": 0.8181120491174213,
+   "n": 1303
+  },
+  {
+   "corte": 0.45,
+   "cobertura": 0.6668523676880223,
+   "acuracia": 0.8429406850459482,
+   "n": 1197
+  },
+  {
+   "corte": 0.5,
+   "cobertura": 0.6133704735376044,
+   "acuracia": 0.857402361489555,
+   "n": 1101
+  },
+  {
+   "corte": 0.55,
+   "cobertura": 0.5565459610027855,
+   "acuracia": 0.8708708708708709,
+   "n": 999
+  },
+  {
+   "corte": 0.6000000000000001,
+   "cobertura": 0.49080779944289693,
+   "acuracia": 0.8898978433598184,
+   "n": 881
+  },
+  {
+   "corte": 0.65,
+   "cobertura": 0.4423398328690808,
+   "acuracia": 0.9030226700251889,
+   "n": 794
+  },
+  {
+   "corte": 0.7000000000000001,
+   "cobertura": 0.40222841225626743,
+   "acuracia": 0.909972299168975,
+   "n": 722
+  },
+  {
+   "corte": 0.75,
+   "cobertura": 0.3532033426183844,
+   "acuracia": 0.917981072555205,
+   "n": 634
+  },
+  {
+   "corte": 0.8,
+   "cobertura": 0.3008356545961003,
+   "acuracia": 0.9277777777777778,
+   "n": 540
+  },
+  {
+   "corte": 0.8500000000000001,
+   "cobertura": 0.22952646239554317,
+   "acuracia": 0.9538834951456311,
+   "n": 412
+  }
+ ],
+ "limiar_sugerido": {
+  "corte": 0.35000000000000003,
+  "cobertura": 0.781058495821727,
+  "acuracia": 0.8038516405135521,
+  "n": 1402.0
+ },
+ "nao_liga": {
+  "n_teste": 142,
+  "n_treino": 218,
+  "ordem_fixa_treino": [
+   "Energia / bateria",
+   "Inicialização (boot)",
+   "Placa / dano interno",
+   "Tela",
+   "Software / sistema"
+  ],
+  "acerto": {
+   "1": {
+    "modelo": 0.6338028169014085,
+    "ordem_fixa": 0.4507042253521127
+   },
+   "2": {
+    "modelo": 0.8661971830985915,
+    "ordem_fixa": 0.7816901408450704
+   },
+   "3": {
+    "modelo": 0.9154929577464789,
+    "ordem_fixa": 0.8450704225352113
+   }
+  },
+  "dist_teste": {
+   "Energia / bateria": 0.451,
+   "Inicialização (boot)": 0.331,
+   "Placa / dano interno": 0.063,
+   "Armazenamento": 0.063,
+   "Tela": 0.042
+  }
+ },
+ "termos_modelo": {
+  "Armazenamento": [
+   "hd",
+   "hard",
+   "ssd",
+   "memory",
+   "data",
+   "photos"
+  ],
+  "Botões / teclado / touchpad": [
+   "button",
+   "keyboard",
+   "trackpad",
+   "clavier",
+   "key",
+   "switch"
+  ],
+  "Carcaça / dano externo": [
+   "hinge",
+   "verbogen",
+   "defekt",
+   "casing",
+   "start button",
+   "smashed"
+  ],
+  "Conectores e portas": [
+   "usb",
+   "sim",
+   "jack",
+   "port",
+   "socket",
+   "red"
+  ],
+  "Dano por líquido": [
+   "waterschade",
+   "water",
+   "niet in",
+   "wasserschaden",
+   "no outcome",
+   "damage no"
+  ],
+  "Desempenho / superaquecimento": [
+   "slow",
+   "fan",
+   "lenteur",
+   "traag",
+   "change hd",
+   "langzaam"
+  ],
+  "Energia / bateria": [
+   "battery",
+   "power",
+   "charger",
+   "accu",
+   "akku",
+   "dead"
+  ],
+  "Inicialização (boot)": [
+   "boot",
+   "booting",
+   "bios",
+   "avvio",
+   "not booting",
+   "turns on"
+  ],
+  "Outros": [
+   "gereinigt",
+   "protector",
+   "connectivity",
+   "ed",
+   "need replacing",
+   "damage"
+  ],
+  "Placa / dano interno": [
+   "platine",
+   "card",
+   "das",
+   "cpu",
+   "ribbon",
+   "board"
+  ],
+  "Software / sistema": [
+   "os",
+   "virus",
+   "software",
+   "linux",
+   "password",
+   "reset"
+  ],
+  "Tela": [
+   "screen",
+   "display",
+   "lcd",
+   "scherm",
+   "écran",
+   "cracked"
+  ],
+  "Áudio / câmera / mídia": [
+   "cd",
+   "sound",
+   "camera",
+   "dvd",
+   "mic",
+   "lecteur"
+  ]
+ },
+ "sondagem_pt": [
+  {
+   "frase": "tela quebrada",
+   "aparelho": "Celular",
+   "esperada": "Tela",
+   "top1": "Outros",
+   "prob_top1": 0.255,
+   "esperada_no_top3": false,
+   "confianca_alta": false
+  },
+  {
+   "frase": "não carrega, só funciona com o cabo torto",
+   "aparelho": "Celular",
+   "esperada": "Conectores e portas",
+   "top1": "Áudio / câmera / mídia",
+   "prob_top1": 0.329,
+   "esperada_no_top3": false,
+   "confianca_alta": false
+  },
+  {
+   "frase": "bateria estufada",
+   "aparelho": "Celular",
+   "esperada": "Energia / bateria",
+   "top1": "Outros",
+   "prob_top1": 0.301,
+   "esperada_no_top3": true,
+   "confianca_alta": false
+  },
+  {
+   "frase": "caiu na água e não liga mais",
+   "aparelho": "Celular",
+   "esperada": "Dano por líquido",
+   "top1": "Outros",
+   "prob_top1": 0.219,
+   "esperada_no_top3": false,
+   "confianca_alta": false
+  },
+  {
+   "frase": "não liga e nenhuma luz acende",
+   "aparelho": "Notebook",
+   "esperada": "Energia / bateria",
+   "top1": "Desempenho / superaquecimento",
+   "prob_top1": 0.238,
+   "esperada_no_top3": false,
+   "confianca_alta": false
+  },
+  {
+   "frase": "muito lento, trava toda hora",
+   "aparelho": "Notebook",
+   "esperada": "Desempenho / superaquecimento",
+   "top1": "Desempenho / superaquecimento",
+   "prob_top1": 0.565,
+   "esperada_no_top3": true,
+   "confianca_alta": true
+  },
+  {
+   "frase": "teclado com várias teclas falhando",
+   "aparelho": "Notebook",
+   "esperada": "Botões / teclado / touchpad",
+   "top1": "Desempenho / superaquecimento",
+   "prob_top1": 0.268,
+   "esperada_no_top3": false,
+   "confianca_alta": false
+  },
+  {
+   "frase": "liga mas não dá vídeo",
+   "aparelho": "Desktop",
+   "esperada": "Tela",
+   "top1": "Placa / dano interno",
+   "prob_top1": 0.268,
+   "esperada_no_top3": false,
+   "confianca_alta": false
+  }
+ ]
+}
