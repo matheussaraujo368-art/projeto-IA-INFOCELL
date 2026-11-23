@@ -133,7 +133,7 @@ C.push(...["Rafael R Pontara", "Matheus de Brito Araujo", "Pedro Paulo T. Araujo
 // Histórico de versões
 C.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 240 }, children: [new TextRun({ text: "HISTÓRICO DE VERSÕES", bold: true })] }),
   table(["Versão", "Etapa", "Data", "Conteúdo"], [
-    ["1.0", "TED 01", "2026", "Definição do problema de dados, necessidades de dados e seleção do conjunto Open Repair Data."],
+    ["1.0", "TED 01", "19/09/2026", "Definição do problema de dados, necessidades de dados e seleção do conjunto Open Repair Data."],
     ["2.0", "TED 02", "26/09/2026", "Inspeção da base, revisão da seleção (Seção 6), limpeza e saneamento com justificativas (Seções 7 a 10), análise exploratória (Seções 11 e 12) e relação com o problema e o MVP (Seção 13). Seções 1 a 5 preservadas da versão 1.0."],
     ["3.0", "TED 03", "03/11/2026", "Definição do problema de Machine Learning (Seção 15), preparação para a modelagem (16), técnicas e processo de treinamento (17), resultados (18), interpretação (19), limitações (20), relação com o projeto e o MVP (21), registro de decisões e reprodução (22) e considerações finais (23). Seções 1 a 14 preservadas da versão 2.0."],
   ], [900, 1100, 1300, 5771], { align: [AlignmentType.CENTER, AlignmentType.CENTER, AlignmentType.CENTER] }),

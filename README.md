@@ -15,7 +15,7 @@ Um mesmo sintoma ("o celular não liga") pode ter várias causas, e o diagnósti
 | TED 03 | Modelagem preditiva e Machine Learning | `docs/TED03.pdf` / `docs/TED03.docx` (v3.0) |
 
 ### Principais resultados da TED 03
-- Problema: classificação multiclasse **sintoma (texto) + aparelho → categoria de falha** (13 classes), com saída em probabilidades.
+- Problema: classificação multiclasse **sintoma (texto) + aparelho → categoria de falha** (13 classes), com saída em probabilidades. São as 14 categorias da taxonomia da TED 02 menos "Indeterminado", que não informa a causa e foi excluída da modelagem (Seção 15.4 do documento).
 - Divisão temporal (treino ≤ 2018: 2.224; teste 2019–2020: 1.795). Modelo: regressão logística sobre TF-IDF de palavras + caracteres + aparelho.
 - Teste: acurácia 71,6%, F1-macro 0,654 (IC95% 0,619–0,683), top-3 89,5% — contra 17,5% e 0,053 da linha de base.
 - Limitação central: nenhum texto em português na base; confiança < 0,35 deve acionar perguntas complementares.
@@ -42,7 +42,7 @@ projeto-inforcell/
 │   │   └── quests/
 │   └── processed/                  bases tratadas + dicionário de dados
 ├── notebooks/
-│   ├── TED01/
+│   ├── TED01/                      vazia: a TED 01 foi de seleção e avaliação da base, sem código
 │   ├── TED02/
 │   │   ├── 01_carga_inspecao.ipynb
 │   │   ├── 02_limpeza_saneamento.ipynb
