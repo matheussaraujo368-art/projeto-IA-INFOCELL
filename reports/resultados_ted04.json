@@ -1,0 +1,56 @@
+{
+ "n_paises": 28,
+ "registros_brasil": 0,
+ "pct_paises_top3": 55.4,
+ "paises_top3": [
+  "GBR",
+  "DEU",
+  "BEL"
+ ],
+ "pct_fonte_restart": 57.3,
+ "pct_relatos_portugues": 0.0,
+ "colunas_reparos": [
+  "id",
+  "fonte",
+  "pais",
+  "categoria",
+  "marca",
+  "ano_fabricacao",
+  "idade_anos",
+  "faixa_idade",
+  "idade_atipica",
+  "status_reparo",
+  "consertado",
+  "barreira_reparo",
+  "data_evento",
+  "ano_evento",
+  "problema",
+  "tem_descricao",
+  "n_palavras",
+  "idioma",
+  "registro_em_lote"
+ ],
+ "privacidade": {
+  "reparos_limpo": {
+   "textos": 16982,
+   "e-mail": 0,
+   "endereço web (URL)": 0,
+   "sequência longa de dígitos (telefone ou documento)": 0,
+   "pronome de tratamento seguido de nome": 2
+  },
+  "falhas_rotuladas_limpo": {
+   "textos": 5499,
+   "e-mail": 0,
+   "endereço web (URL)": 0,
+   "sequência longa de dígitos (telefone ou documento)": 0,
+   "pronome de tratamento seguido de nome": 0
+  },
+  "falhas_modelagem": {
+   "textos": 4019,
+   "e-mail": 0,
+   "endereço web (URL)": 0,
+   "sequência longa de dígitos (telefone ou documento)": 0,
+   "pronome de tratamento seguido de nome": 0
+  }
+ }
+}
